@@ -1,0 +1,6 @@
+Dodaj nowe funkcjonalności do klasy Car prezentowanej na zajęciach zgodnie z poniższymi wymaganiami.
+Jeśli samochód jedzie luzem (nie używamy pedału), zwalnia go o 1 km/h z powodu oporu powietrza i oporu toczenia. Hamowanie jest PRZEZ prędkość. Przyspieszanie jest DO prędkości. (Pamiętaj: Każde wywołanie metody samochodu odpowiada 1 sekundzie.) Dla każdego samochodu domyślne przyspieszenie wynosi maksymalnie 10 km/h na sekundę. W nowym konstruktorze samochodu powinna być możliwość ustawienia wyższego przyspieszenia. Wartość zawsze musi mieścić się w zakresie od 5 do 20. Popraw, jeśli jest poniżej minimum lub powyżej maksimum. Każdy samochód hamuje maksymalnie o 10 km/h na sekundę.
+Maksymalna prędkość samochodu wynosi 250 km/h, i oczywiście nie może mieć ujemnej prędkości.
+Zużycie paliwa dla poruszającego się samochodu jest pobierane z tych zakresów: 1 - 60 km/h -> 0.0020 litra/sekundę 61 - 100 km/h -> 0.0014 litra/sekundę 101 - 140 km/h -> 0.0020 litra/sekundę 141 - 200 km/h -> 0.0025 litra/sekundę 201 - 250 km/h -> 0.0030 litra/sekundę
+(Kiedy samochód hamuje lub porusza się luzem i zwalnia, nie ma zużycia paliwa.)
+Dla wygody przyspieszenia i hamowania są zawsze liniowe, a zużycie dotyczy tylko prędkości na koniec każdej sekundy. Nie uwzględnia się wyższego zużycia podczas przyspieszania w obrębie jednej sekundy.
