@@ -100,6 +100,9 @@ public class Car : ICar,IDrivingProcessor,IDrivingInformationDisplay{
     }
 
     public void RunningIdle(){
+        if (ActualSpeed >0){
+            ReduceSpeed(1);
+        }
         consumeFuel();
     }
 

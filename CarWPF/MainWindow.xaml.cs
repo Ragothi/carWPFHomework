@@ -15,9 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CarWPF{
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window{
         
         Car car = new Car(15);
